@@ -37,8 +37,8 @@ export const SITE: SiteConfig = {
   company: 'Pocono Septic',
   tagline: 'Septic Pumping, Repair & Inspections',
   trade: 'septic service',
-  phone: '+15705550163', // PLACEHOLDER — fictitious 555-01xx range; swap for the real (570/272) number before launch
-  phoneDisplay: '(570) 555-0163',
+  phone: '+15706647171', // LIVE tracking number — Stroudsburg PA 570 local (Twilio leadgen acct, 2026-10-08). Routes via lead-gen-twilio /incoming → whisper+voicemail → logs to calls table as "Pocono Septic".
+  phoneDisplay: '(570) 664-7171',
   email: 'service@poconoseptic.com', // PLACEHOLDER local-part — confirm the real inbox
   region: 'The Poconos',
   url: 'https://poconoseptic.com', // keep in sync with astro.config.mjs
